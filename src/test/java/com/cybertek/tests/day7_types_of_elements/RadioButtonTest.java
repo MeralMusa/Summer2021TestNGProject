@@ -37,9 +37,6 @@ public class RadioButtonTest {
         Assert.assertFalse(blueRadioButton.isSelected(),"verify that blue radio button is not selected");
         Assert.assertTrue(redRadioButton.isSelected(),"verify that red radio button is  selected");
 
-
-
-
         driver.quit();
 
 
