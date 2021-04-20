@@ -68,7 +68,7 @@ public class SelectClassTest {
 
 
         Thread.sleep(2000);
-        //2. Using by Value
+        //3. Using by Value
 
         statList.selectByValue("VA");
         System.out.println( statList.getFirstSelectedOption().getText());
